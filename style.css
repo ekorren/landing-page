@@ -1,3 +1,7 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     margin: 0;
 }
@@ -9,7 +13,7 @@ p {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 5px 75px 100px;
+    padding: 5px 150px 100px;
     background-color: #1f2937;
 
 }
@@ -33,12 +37,8 @@ p {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding: 0 75px 100px;
+    padding: 0 150px 100px;
     background-color: #1f2937;
-}
-
-.left-from-img {
-    /*everything left from placeholder-image*/
 }
 
 .hero-main {
@@ -56,7 +56,7 @@ p {
     border: none;
     border-radius: 5px;
     padding: 4px 20px; 
-    background-color: #3B82F6;
+    background-color: #3882F6;
     color: white;
     font-weight: bold;
     margin-top: 10px;
@@ -74,7 +74,7 @@ p {
 }
 
 .information {
-    padding: 0 150px 100px;
+    padding: 0 200px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -99,8 +99,8 @@ p {
 
 .empty-box {
     border-radius: 10px;
-    border: 2px solid #3B82F6;
-    flex-basis: 110px;
+    border: 2px solid #3882F6;
+    flex-basis: 150px;
 }
 
 .box-subtext {
@@ -129,7 +129,7 @@ p {
     justify-content: space-between;
     padding: 30px 75px;
     margin: 100px;
-    background-color: #3B82F6;
+    background-color: #3882F6;
 
 }
 
@@ -146,7 +146,7 @@ p {
     color: white;
     margin: 30px;
     padding: 4px 20px; 
-    background-color: #3B82F6;
+    background-color: #3882F6;
     font-weight: bold;
 }
 
